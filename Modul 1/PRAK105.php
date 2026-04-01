@@ -19,14 +19,14 @@ $hp = array(
         }
 
         table {
-            border: 1px solid #000;
+            border: 2px solid #000;
             border-spacing: 2px;
             background-color: #ffffff;
         }
 
         th,
         td {
-            border: 1px solid #000;
+            border: 2px solid #000;
             background-color: #ffffff;
             padding: 2px 6px;
         }
@@ -36,6 +36,8 @@ $hp = array(
             text-align: center;
             background-color: red;
             font-size: 25px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
     </style>
 </head>
