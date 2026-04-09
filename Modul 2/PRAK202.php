@@ -23,12 +23,12 @@
         $genderError = "";
 
         $isSubmitted = isset($_POST["submit"]);
-        $nama = $_POST["nama"] ?? "";
+        $nama = $_POST["name"] ?? "";
         $nim = $_POST["nim"] ?? "";
         $gender = $_POST["gender"] ?? "";
 
         if ($isSubmitted) {
-            if (empty($nama)) {
+            if (empty($name)) {
                 $namaError = "nama tidak boleh kosong";
             }
 
@@ -43,7 +43,7 @@
     ?>
 
     <form action="" method="post">
-        Nama: <input type="text" name="nama" value="<?=$nama?>"><span class="error">* <?php echo $namaError;?></span><br>
+        Nama: <input type="text" name="name" value="<?=$name?>"><span class="error">* <?php echo $namaError;?></span><br>
         Nim: <input type="text" name="nim" value="<?=$nim?>"><span class="error">* <?php echo $nimError;?></span><br>
         Jenis Kelamin :<span class="error">* <?php echo $genderError;?></span><br>
         <label class="gender-option">
@@ -60,9 +60,9 @@
     </form>
 
     <?php
-        if ($isSubmitted && !empty($nama) && !empty($nim) && !empty($gender)) {
+        if ($isSubmitted && !empty($name) && !empty($nim) && !empty($gender)) {
             echo "<h1>Output: </h1>";
-            echo $nama . "<br>";
+            echo $name . "<br>";
             echo $nim . "<br>";
             echo $gender;
         }
