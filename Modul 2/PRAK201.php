@@ -7,50 +7,50 @@
     <body>
         <form method="POST">
             <label>Nama: 1 </label>
-            <input type="text" name="nama1"><br>
+            <input type="text" name="name1"><br>
             <label>Nama: 2 </label>
-            <input type="text" name="nama2"><br>
+            <input type="text" name="name2"><br>
             <label>Nama: 3 </label>
-            <input type="text" name="nama3"><br>
+            <input type="text" name="name3"><br>
 
             <input type="submit" name="urutkan" value="Urutkan">
         </form>
 
         <?php
         if (isset($_POST['urutkan'])) {
-            $nama1 = $_POST['nama1'];
-            $nama2 = $_POST['nama2'];
-            $nama3 = $_POST['nama3'];
+            $name1 = $_POST['name1'];
+            $name2 = $_POST['name2'];
+            $name3 = $_POST['name3'];
 
-            if ($nama1 <= $nama2 and $nama1 <= $nama3){
-                if ($nama2 <= $nama3){
-                    echo $nama1 . "<br>";
-                    echo $nama2 . "<br>";
-                    echo $nama3 . "<br>";
+            if ($name1 <= $name2 and $name1 <= $name3){
+                if ($name2 <= $name3){
+                    echo $name1 . "<br>";
+                    echo $name2 . "<br>";
+                    echo $name3 . "<br>";
                 } else {
-                    echo $nama1 . "<br>";
-                    echo $nama3 . "<br>";
-                    echo $nama2 . "<br>";
+                    echo $name1 . "<br>";
+                    echo $name3 . "<br>";
+                    echo $name2 . "<br>";
                 }
-            } else if ($nama2 <= $nama1 and $nama2 <= $nama3){
-                if ($nama1 <= $nama3){
-                    echo $nama2 . "<br>";
-                    echo $nama1 . "<br>";
-                    echo $nama3 . "<br>";
+            } else if ($name2 <= $name1 and $name2 <= $name3){
+                if ($name1 <= $name3){
+                    echo $name2 . "<br>";
+                    echo $name1 . "<br>";
+                    echo $name3 . "<br>";
                 } else {
-                    echo $nama2 . "<br>";
-                    echo $nama3 . "<br>";
-                    echo $nama1 . "<br>";
+                    echo $name2 . "<br>";
+                    echo $name3 . "<br>";
+                    echo $name1 . "<br>";
                 }
             } else {
-                if ($nama1 <= $nama2){
-                    echo $nama3 . "<br>";
-                    echo $nama1 . "<br>";
-                    echo $nama2 . "<br>";
+                if ($name1 <= $name2){
+                    echo $name3 . "<br>";
+                    echo $name1 . "<br>";
+                    echo $name2 . "<br>";
                 } else {
-                    echo $nama3 . "<br>";
-                    echo $nama2 . "<br>";
-                    echo $nama1 . "<br>";
+                    echo $name3 . "<br>";
+                    echo $name2 . "<br>";
+                    echo $name1 . "<br>";
                 }
             }
         }
