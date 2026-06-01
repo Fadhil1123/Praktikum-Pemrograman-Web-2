@@ -8,7 +8,7 @@
     <div class="container">
         <div class="alert alert-light border-start border-5 border-purple shadow-sm mb-5 fade-in-alert alert-dismissible">
 
-            🌸 Selamat Datang di Website Portfolio Saya!
+            Selamat Datang di Website Portfolio Saya!
 
             <button type="button"
                     class="btn-close"
@@ -22,7 +22,7 @@
             <div class="col-lg-6">
 
                 <h1 class="hero-title">
-                    Halo, Saya <?= $profile['nama']; ?> 👋
+                    Halo, Saya <?= $profile['nama']; ?>
                 </h1>
 
                 <p class="hero-subtitle">

@@ -17,7 +17,7 @@
     <div class="container">
 
         <a class="navbar-brand fw-bold" href="<?= base_url('/'); ?>">
-            🌸 My Portfolio
+            My Portfolio
         </a>
 
         <button class="navbar-toggler"

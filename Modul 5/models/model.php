@@ -357,8 +357,8 @@ function has_book_loan_overlap($id_buku, $tgl_pinjam, $tgl_kembali, $excludePemi
         SELECT COUNT(*) AS total
         FROM peminjaman
         WHERE id_buku = $id_buku
-        AND NOT ($kembaliCol < '$tgl_pinjam' OR $pinjamCol > '$tgl_kembali')
-        $whereExclude
+          AND NOT ($kembaliCol < '$tgl_pinjam' OR $pinjamCol > '$tgl_kembali')
+          $whereExclude
     ";
 
     $res = result_or_false($sql);
