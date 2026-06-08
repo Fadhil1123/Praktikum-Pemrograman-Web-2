@@ -70,3 +70,36 @@ in SYSTEMPATH\Database\Seeder.php on line 90.
  4 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
  5 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
  6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-06-08 19:58:24 --> ErrorException: Undefined variable $userModel
+[Method: POST, Route: login/process]
+in APPPATH\Controllers\AuthController.php on line 18.
+ 1 APPPATH\Controllers\AuthController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\Praktikum-Pemrograman-Web-2\\Modul 7\\app\\Controllers\\AuthController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\AuthController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Praktikum-Pemrograman-Web-2\\Modul 7\\public\\index.php')
+CRITICAL - 2026-06-08 19:58:43 --> ErrorException: Undefined variable $userModel
+[Method: POST, Route: login/process]
+in APPPATH\Controllers\AuthController.php on line 18.
+ 1 APPPATH\Controllers\AuthController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\Praktikum-Pemrograman-Web-2\\Modul 7\\app\\Controllers\\AuthController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\AuthController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Praktikum-Pemrograman-Web-2\\Modul 7\\public\\index.php')
+CRITICAL - 2026-06-08 19:58:58 --> ErrorException: Undefined variable $userModel
+[Method: POST, Route: login/process]
+in APPPATH\Controllers\AuthController.php on line 18.
+ 1 APPPATH\Controllers\AuthController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\Praktikum-Pemrograman-Web-2\\Modul 7\\app\\Controllers\\AuthController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\AuthController->processLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Praktikum-Pemrograman-Web-2\\Modul 7\\public\\index.php')
